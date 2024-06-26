@@ -1,0 +1,132 @@
+/*
+CSS : CASCADE STYLR SHEET ===>HOJA DE ESTILO
+EN CASCADA.
+apariencia y distribucion del estilo
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto";
+    background-color: #9DA2C1;
+    color: white
+}
+h1, p{
+
+    color:white; /*color de frente*/
+    background-color: #474C6D; /*color de fondo de la caja*/
+    padding: 20px;/*ancho del marco interno*/
+    border-radius: 10px;/*redondeo de los bordes de la caja*/
+    text-align: center;/*alineacion del texto contenido de la caja*/
+    border: solid black;/*estilo borde de la caja*/
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.cabeza{
+    text-align: center;
+}
+.especial{
+    background-color: #474C6D;
+    color: grey;
+}
+
+/*diagramacion del sitio*/
+
+.contenedor{
+    width: 100%; /*ancho de la capa de contemido en medida absoluta*/
+    margin: 0 auto ;
+    padding: 2px;
+}
+.principal{
+    width: 55%;/*medida absolouta, un  numero fijo*/
+    padding: 5px;
+    float: left; /*esto es maquetación flotante a la izquierda*/
+    color: #9DA2C1;
+}
+.lateral{
+    width: 40%;/*medida absoluta, fija*/
+    float: left;
+}
+.piedepagina{
+    clear: both;
+    text-align: center;
+    background-color:#7D8097;
+}
+/*diagramación del menu*/
+
+.menu{
+    background-color: #474C6D;
+    padding: 10px;
+    text-align: center;
+    font-family:"Tiny5";
+}
+
+.menu ul li{
+    font-family: "Tiny5";
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    border-style: solid;
+    border-color: white;
+    margin-left: 3px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7B7F96;
+    box-shadow: 3px 3px white (162, 164, 164);
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+/*usando una pseudo clase de css, hover reacciona al cursor*/
+
+.menu ul li a:hover{
+    color: white;
+    font-size: 1.5em;
+    font-family: "Tiny5";
+}
+
+.info{
+    text-align: center;
+}
+
+.social{
+    text-align: right;
+
+}
+
+.email{
+    text-decoration: none;
+}
+
+input[type="password"]:hover{
+    background-color: white;
+    padding: 10px;
+    
+}
+
+table, th, tr, td{
+    margin: 0 auto;
+    width: 800px;
+    background-color: gray;
+    border:solid black 4px; 
+}
+
+.serv1{
+    padding: 5px;/*ancho del marco interno*/
+    text-align: center;/*alineacion del texto contenido de la caja*/
+    float: left;
+    width: 100%;
+}
+
+.serv2{
+    padding: 5px;/*ancho del marco interno*/
+    text-align: center;/*alineacion del texto contenido de la caja*/
+    float: left;
+    width: 40%;
+}

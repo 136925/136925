@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+
+</head>
+<body>
+    <div class="cabeza">
+        <!--img para imagen src ees source o nombre de la imagen alt -->
+        <img src="./assets/imagen/logo.jpg" alt="logo" width="200">
+    </div>
+    <div class="menu">
+        <ul>
+            <li> 
+                <a href="index.html">inicio</a>
+            </li>
+            <li>
+                <a href="articulos.html">articulos</a>
+            </li>
+            <li>
+                <a href="servicios.html">servicios</a>
+            </li>
+        </ul>
+    <br>
+    </div>
+<!--INICIO DE FORMULARIO-->
+<form>
+    <!--CAJA DE TEXTO-->
+    <label for="Nombre">Nombre:</label>
+    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        <br>
+        <br>
+    <label for="Apellidos">Apellidos</label>
+    <input type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos">
+        <br>
+        <br>
+Escriba su comentario o solicitud:
+<textarea 
+    name="comentario" 
+    id="comentario" 
+    cols="80" 
+    rows="15">
+</textarea>
+    <br>
+    <br>
+seleccione su sexo
+<select name="sexo" id="sexo">
+    <option value="">masculino</option>
+    <option value="">femenino</option>
+    <option value="">no binario</option>
+</select>
+    <br>
+    <br>
+escriba su edad 
+<input type="number" name="edad" id="edad">
+    <br>
+seleccione las actividades preferidas:
+<input type="checkbox" name="gimnasia" id="gimnasia">
+        gimnasia
+<input type="checkbox" name="pesas" id="pesas">
+        pesas
+<input type="checkbox" name="natacion" id="natación">
+        natación
+<input type="checkbox" name="pilates" id="pilates">
+        pilates
+    <br>
+<!--campo oculto o hideen-->
+<input type="hidden" name="oculto" value="pasword345">
+    <br>
+    <br>
+===== campos nuevos de html5 =====
+    <br>
+    <br>
+<input type="image" src="./assets/imagen/peliculas1.jpg" alt="spa" width="400">
+    <br>
+    <br>
+escriba su fecha de nacimiento:
+<input type="date" name="fechanace" id="fechanace">
+    <br>
+Ingrese su email
+<input type="email" name="email" id="email">
+    <br>
+Ingrese contraseña
+<input type="password" name="password" id="password">
+    <br>
+deslice para mostrar:
+<input type="range" name="rango" id="rango">
+    <br>
+suba el archivo
+<input type="file" name="archivo" id="archivo"> 
+    <br>
+<input type="reset" value="cancelar">
+<input type="submit" value="envi    ar">
+</form>
+<div class ="piedepagina">
+    <div class="info">derechos reservados de autor o &#169;  &#9762; 
+        <br>
+            calle caliente con olla numero 3
+        <br>
+            Valle del cauca Cartago
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com/jhonieryesid.vergararojas?locale=es_LA">
+            <img src="./assets/imagen/facebook.png" 
+            alt="facebook" srcset="./assets/imagen/facebook.png">
+        </a>
+        <a href="https://www.instagram.com/andonifitness/">
+            <img src="./assets/imagen/instagram.png" 
+            alt="instagram" srcset="./assets/imagen/instagram.png">
+        </a>
+        <a href="mailto:jjtolomeo@gmail.com" class="email">
+        </a>
+    </div>
+</div>
+</body>
+</html>
